@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Insta Website — Build Your Digital Presence in Seconds</title>
-<meta name="description" content="Create stunning websites instantly with our AI-powered website builder. Launch your digital presence in minutes, no coding required.">
-<meta name="keywords" content="instant website builder, digital presence, quick website, AI website creator, no-code builder, online presence, web design">
-<meta property="og:title" content="Insta Website — Build Your Digital Presence in Seconds">
-<meta property="og:description" content="Create stunning websites instantly with our AI-powered website builder. Launch your digital presence in minutes, no coding required.">
+<title>Insta Website — Launch Your Digital Presence in Minutes</title>
+<meta name="description" content="Build stunning websites instantly with our digital presence builder. No coding required. Go live in minutes with professional templates.">
+<meta name="keywords" content="instant website builder, digital presence, quick website, no-code builder, online presence, website creator, fast websites">
+<meta property="og:title" content="Insta Website — Launch Your Digital Presence in Minutes">
+<meta property="og:description" content="Build stunning websites instantly with our digital presence builder. No coding required. Go live in minutes with professional templates.">
 <meta property="og:url" content="https://insta.website">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://insta.website/og-image.png">
@@ -223,6 +223,73 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
   .footer-top{grid-template-columns:1fr}
 }
 </style>
+
+  <!-- ═══ SEO: Open Graph ═══ -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://insta.website/">
+  <meta property="og:title" content="Insta Website — Launch Your Digital Presence in Minutes">
+  <meta property="og:description" content="Build stunning websites instantly with our digital presence builder. No coding required. Go live in minutes with professional templates.">
+  <meta property="og:image" content="https://insta.website/og-image.jpg">
+  <meta property="og:site_name" content="Insta Website">
+  <meta property="og:locale" content="en_US">
+
+  <!-- ═══ SEO: Twitter Cards ═══ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@insta">
+  <meta name="twitter:title" content="Insta Website — Launch Your Digital Presence in Minutes">
+  <meta name="twitter:description" content="Build stunning websites instantly with our digital presence builder. No coding required. Go live in minutes with professional templates.">
+  <meta name="twitter:image" content="https://insta.website/og-image.jpg">
+
+  <!-- ═══ SEO: Additional Meta ═══ -->
+  <meta name="author" content="Insta Website — Webworks Media Network">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="theme-color" content="#04070f">
+  <link rel="canonical" href="https://insta.website/">
+
+  <!-- ═══ Security Headers ═══ -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+
+  <!-- ═══ Schema.org JSON-LD ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Insta Website",
+    "url": "https://insta.website",
+    "description": "Build stunning websites instantly with our digital presence builder. No coding required. Go live in minutes with professional templates.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Insta Website",
+      "url": "https://insta.website",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://insta.website/logo.png"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://insta.website/?s={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- ═══ Google Analytics 4 ═══ -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', {
+      page_title: 'Insta Website',
+      page_location: 'https://insta.website/'
+    });
+  </script>
+
+  <!-- AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -243,30 +310,151 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 </nav>
 
 <!-- HERO -->
+
+<!-- ══════════════════════════════════════════════ -->
+<!-- 50/50 BILLBOARD — YouTube + Sponsor CTA       -->
+<!-- ══════════════════════════════════════════════ -->
+<style>
+.billboard{display:grid;grid-template-columns:1fr 1fr;min-height:520px;position:relative;overflow:hidden;background:#020617;border-bottom:1px solid rgba(255,255,255,0.07)}
+.bb-left{position:relative;background:#000;overflow:hidden}
+.bb-left::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(0,245,196,0.08) 0%,transparent 70%);pointer-events:none;z-index:1;animation:bbGlow 4s ease-in-out infinite}
+@keyframes bbGlow{0%,100%{opacity:0.6}50%{opacity:1}}
+.yt-wrapper{position:relative;width:100%;height:100%;min-height:520px}
+.yt-wrapper iframe{position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2}
+.yt-loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#020617;z-index:1;gap:1rem}
+.yt-spinner{width:40px;height:40px;border:3px solid rgba(255,255,255,0.07);border-top-color:#00f5c4;border-radius:50%;animation:spin 0.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.yt-loading p{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:#6b7a99;letter-spacing:2px}
+.live-badge{position:absolute;top:16px;left:16px;background:#ef4444;color:#fff;padding:0.25rem 0.75rem;border-radius:4px;font-family:'JetBrains Mono',monospace;font-size:0.65rem;font-weight:600;letter-spacing:2px;z-index:10;display:flex;align-items:center;gap:6px;box-shadow:0 0 20px rgba(239,68,68,0.5);animation:livePulse 2s ease-in-out infinite}
+@keyframes livePulse{0%,100%{box-shadow:0 0 20px rgba(239,68,68,0.5)}50%{box-shadow:0 0 40px rgba(239,68,68,0.8)}}
+.live-dot{width:7px;height:7px;background:#fff;border-radius:50%;animation:dotBlink 1s ease-in-out infinite}
+@keyframes dotBlink{0%,100%{opacity:1}50%{opacity:0.3}}
+.bb-divider{position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,transparent,#00f5c4,#f5a623,transparent);opacity:0.3;z-index:5}
+.bb-right{position:relative;background:#020617;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:3rem 2.5rem;text-align:center;overflow:hidden}
+.bb-right::before{content:'';position:absolute;top:-100px;right:-100px;width:400px;height:400px;background:radial-gradient(circle,rgba(245,166,35,0.12) 0%,transparent 70%);pointer-events:none;animation:goldPulse 3s ease-in-out infinite}
+@keyframes goldPulse{0%,100%{transform:scale(1);opacity:0.8}50%{transform:scale(1.1);opacity:1}}
+.bb-right::after{content:'';position:absolute;bottom:-100px;left:-100px;width:300px;height:300px;background:radial-gradient(circle,rgba(0,245,196,0.08) 0%,transparent 70%);pointer-events:none}
+.megaphone-wrap{position:relative;margin-bottom:1.5rem}
+.megaphone-icon{font-size:4rem;display:block;animation:wobble 2s ease-in-out infinite;filter:drop-shadow(0 0 20px rgba(245,166,35,0.6))}
+@keyframes wobble{0%,100%{transform:rotate(-5deg) scale(1)}25%{transform:rotate(5deg) scale(1.05)}50%{transform:rotate(-3deg) scale(0.98)}75%{transform:rotate(4deg) scale(1.03)}}
+.megaphone-halo{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:80px;height:80px;background:radial-gradient(circle,rgba(245,166,35,0.3) 0%,transparent 70%);border-radius:50%;animation:haloExpand 2s ease-in-out infinite}
+@keyframes haloExpand{0%,100%{transform:translate(-50%,-50%) scale(1);opacity:0.8}50%{transform:translate(-50%,-50%) scale(1.5);opacity:0.4}}
+.sponsor-tag{font-family:'JetBrains Mono',monospace;font-size:0.65rem;letter-spacing:3px;color:#f5a623;text-transform:uppercase;margin-bottom:0.75rem;display:flex;align-items:center;gap:8px}
+.sponsor-tag::before,.sponsor-tag::after{content:'';height:1px;width:20px;background:#f5a623;opacity:0.5}
+.sponsor-headline{font-family:'Syne',sans-serif;font-size:clamp(1.4rem,3vw,2rem);font-weight:900;line-height:1.1;text-transform:uppercase;letter-spacing:-0.5px;margin-bottom:1rem;color:#e8ecf8}
+.sponsor-headline .hl{background:linear-gradient(90deg,#f5a623,#ffcc44);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.sponsor-stats{display:flex;gap:1.5rem;margin-bottom:1.5rem;flex-wrap:wrap;justify-content:center}
+.sp-stat .n{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:900;color:#00f5c4;display:block}
+.sp-stat .l{font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:#6b7a99;letter-spacing:1px}
+.btn-secure{position:relative;background:linear-gradient(135deg,#f5a623,#e8920a);color:#000;padding:1rem 2rem;border-radius:8px;font-family:'Syne',sans-serif;font-size:1rem;font-weight:900;letter-spacing:0.5px;text-decoration:none;text-transform:uppercase;border:none;cursor:pointer;display:inline-block;box-shadow:0 0 30px rgba(245,166,35,0.5),0 0 60px rgba(245,166,35,0.25);animation:secureGlow 3s ease-in-out infinite;transition:transform 0.2s;width:100%;max-width:300px;margin-bottom:0.75rem;overflow:hidden;text-align:center}
+.btn-secure::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent);transform:translateX(-100%);animation:secureShimmer 2s infinite}
+@keyframes secureShimmer{to{transform:translateX(100%)}}
+@keyframes secureGlow{0%,100%{box-shadow:0 0 30px rgba(245,166,35,0.5),0 0 60px rgba(245,166,35,0.25)}50%{box-shadow:0 0 50px rgba(245,166,35,0.8),0 0 100px rgba(245,166,35,0.4)}}
+.btn-secure:hover{transform:translateY(-2px) scale(1.01)}
+.bb-adsense{width:100%;max-width:300px;min-height:50px}
+.spots-left{font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:#6b7a99;margin-top:0.5rem;display:flex;align-items:center;gap:6px}
+.spots-left::before{content:'';width:6px;height:6px;background:#ef4444;border-radius:50%;animation:dotBlink 1s infinite;flex-shrink:0}
+@media(max-width:768px){
+  .billboard{grid-template-columns:1fr}
+  .bb-left{min-height:220px}
+  .yt-wrapper{min-height:220px}
+  .bb-divider{display:none}
+  .bb-right{padding:2rem 1.5rem}
+}
+</style>
+
+<div class="billboard">
+  <!-- LEFT: YouTube Latest Video -->
+  <div class="bb-left">
+    <div class="live-badge"><div class="live-dot"></div>LATEST VIDEO</div>
+    <div class="yt-wrapper">
+      <div class="yt-loading" id="ytLoading">
+        <div class="yt-spinner"></div>
+        <p>LOADING LATEST VIDEO</p>
+      </div>
+      <div id="ytPlayer"></div>
+    </div>
+  </div>
+
+  <!-- DIVIDER -->
+  <div class="bb-divider"></div>
+
+  <!-- RIGHT: Sponsor CTA -->
+  <div class="bb-right">
+    <div class="megaphone-wrap">
+      <div class="megaphone-halo"></div>
+      <span class="megaphone-icon">📢</span>
+    </div>
+    <div class="sponsor-tag">Premium Advertising</div>
+    <h2 class="sponsor-headline">Your Brand.<br><span class="hl">Their Attention.</span><br>Right Now.</h2>
+    <div class="sponsor-stats">
+      <div class="sp-stat"><span class="n">75K+</span><span class="l">Subscribers</span></div>
+      <div class="sp-stat"><span class="n">94%</span><span class="l">Target Match</span></div>
+      <div class="sp-stat"><span class="n">$12</span><span class="l">CPM Rate</span></div>
+    </div>
+    <a href="acquisition.html" class="btn-secure">🔥 Secure This Spot Now</a>
+    <div class="bb-adsense">
+      <ins class="adsbygoogle" style="display:block;width:100%;min-height:50px" data-ad-client="ca-pub-6620975821265271" data-ad-slot="YOUR_AD_SLOT" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    </div>
+    <div class="spots-left">Only 2 sponsor slots remaining this month</div>
+  </div>
+</div>
+
+<script>
+// YouTube Latest Video Loader
+(function(){
+  var apiKey = 'AIzaSyBVoWllpCQ7Bh-GZuHblnipZYZLiJA7duQ';
+  var channelId = 'UCeJ-0a2SZGZDUXpIX-lCfRg';
+  function loadYT(){
+    fetch('https://www.googleapis.com/youtube/v3/search?part=snippet&channelId='+channelId+'&type=video&order=date&maxResults=1&key='+apiKey)
+    .then(function(r){return r.json()})
+    .then(function(data){
+      var loading = document.getElementById('ytLoading');
+      var player = document.getElementById('ytPlayer');
+      if(loading) loading.style.display='none';
+      if(data.items && data.items.length > 0){
+        var vid = data.items[0].id.videoId;
+        if(player) player.innerHTML='<iframe src="https://www.youtube.com/embed/'+vid+'?autoplay=1&mute=1&rel=0&loop=1&playlist='+vid+'&modestbranding=1" allow="autoplay;encrypted-media;picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2"></iframe>';
+      }
+    })
+    .catch(function(){
+      var loading = document.getElementById('ytLoading');
+      var player = document.getElementById('ytPlayer');
+      if(loading) loading.style.display='none';
+      if(player) player.innerHTML='<iframe src="https://www.youtube.com/embed?listType=user_uploads&list='+channelId+'&autoplay=1&mute=1" allow="autoplay;encrypted-media" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:none;z-index:2"></iframe>';
+    });
+  }
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',loadYT);
+  } else { loadYT(); }
+  try{(adsbygoogle=window.adsbygoogle||[]).push({})}catch(e){}
+})();
+</script>
+
 <div class="hero">
   <div class="hero-eyebrow">⚡ INSTANT WEBSITE BUILDER</div>
   <h1>
     Build Sites Instantly
-    <span class="accent">Launch in Seconds</span>
+    <span class="accent">Launch In Minutes</span>
     <span class="dim">No Code Required</span>
   </h1>
-  <p class="hero-sub">Create professional websites in minutes with AI-powered tools. Transform your ideas into stunning digital experiences without writing a single line of code.</p>
+  <p class="hero-sub">Create professional websites and establish your digital presence in minutes, not months. The fastest path from idea to live website.</p>
   <div class="hero-cta">
     <a href="#newsletter" class="btn-primary">Build Your Site Now</a>
-    <a href="#insights" class="btn-ghost">Watch Demo</a>
+    <a href="#insights" class="btn-ghost">See Live Examples</a>
   </div>
   <div class="stats-bar">
-    <div class="stat-item"><span class="stat-num">156K+</span><span class="stat-label">Sites Created</span></div>
-    <div class="stat-item"><span class="stat-num">2.3M</span><span class="stat-label">Active Users</span></div>
-    <div class="stat-item"><span class="stat-num">45sec</span><span class="stat-label">Avg Build Time</span></div>
-    <div class="stat-item"><span class="stat-num">99.9%</span><span class="stat-label">Uptime Guaranteed</span></div>
+    <div class="stat-item"><span class="stat-num">500K+</span><span class="stat-label">Sites Created</span></div>
+    <div class="stat-item"><span class="stat-num">30sec</span><span class="stat-label">Avg Build Time</span></div>
+    <div class="stat-item"><span class="stat-num">99.9%</span><span class="stat-label">Uptime</span></div>
+    <div class="stat-item"><span class="stat-num">180+</span><span class="stat-label">Countries</span></div>
   </div>
 </div>
 
 <!-- TICKER -->
 <div class="ticker-wrap">
   <div class="ticker">
-    <span>AI website builders see 340% growth in 2024</span> · <span>No-code platforms now power 65% of new businesses</span> · <span>Digital presence now critical for 94% of first impressions</span> · <span>Website creation time drops from days to minutes</span> · <span>Small businesses with websites grow 2x faster</span> · <span>Mobile-first design becomes industry standard</span> · <span>AI website builders see 340% growth in 2024</span> · <span>No-code platforms now power 65% of new businesses</span> · <span>Digital presence now critical for 94% of first impressions</span> · <span>Website creation time drops from days to minutes</span> · <span>Small businesses with websites grow 2x faster</span> · <span>Mobile-first design becomes industry standard</span>
+    <span>🚀 New AI-powered template generator now live</span> · <span>⚡ 2M websites launched this quarter</span> · <span>🎨 50 new professional templates added</span> · <span>📱 Mobile-first designs now default</span> · <span>🔒 Free SSL certificates for all sites</span> · <span>💼 Enterprise plans launching soon</span> · <span>🚀 New AI-powered template generator now live</span> · <span>⚡ 2M websites launched this quarter</span> · <span>🎨 50 new professional templates added</span> · <span>📱 Mobile-first designs now default</span> · <span>🔒 Free SSL certificates for all sites</span> · <span>💼 Enterprise plans launching soon</span>
   </div>
 </div>
 
@@ -276,10 +464,10 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
     <div class="billboard-inner">
       <div>
         <div class="billboard-badge">PARTNER</div>
-        <h3>Launch Your Dream Website Today</h3>
-        <p>Join 156,000+ creators who built sites in under 60 seconds</p>
+        <h3>Scale Your Online Business</h3>
+        <p>Premium hosting with unlimited bandwidth</p>
       </div>
-      <a href="https://webflow.com" class="billboard-cta" target="_blank" rel="noopener">Start Free Trial →</a>
+      <a href="https://www.cloudflare.com" class="billboard-cta" target="_blank" rel="noopener">Get Started Free →</a>
     </div>
   </div>
 </div>
@@ -297,36 +485,36 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 </div>
 <!-- CONTENT / INSIGHTS -->
 <section class="section" id="insights">
-  <div class="section-label">RESOURCES</div>
-  <h2 class="section-title">Master Instant Website Building</h2>
-  <p class="section-sub">Expert guides to launch your digital presence faster than ever</p>
+  <div class="section-label">LEARNING HUB</div>
+  <h2 class="section-title">Master Digital Presence</h2>
+  <p class="section-sub">Expert guides to build and grow your online brand</p>
   <div class="content-grid">
     <a href="#" class="content-card">
       <div class="card-thumb" style="background:#0a1628">🚀</div>
       <div class="card-body">
         <div class="card-tag">QUICK START</div>
-        <h3>7 Steps to Launch Your Website in Under 5 Minutes</h3>
-        <p>Complete beginner's guide to building professional sites instantly using AI-powered tools and templates.</p>
+        <h3>Launch Your First Website in 5 Minutes</h3>
+        <p>Step-by-step guide to going live with your professional website today</p>
       </div>
-      <div class="card-footer"><span>4 min read</span><span>24.8K views</span></div>
+      <div class="card-footer"><span>5 min read</span><span>45.2K views</span></div>
     </a>
     <a href="#" class="content-card">
-      <div class="card-thumb" style="background:#0d1020">🎨</div>
+      <div class="card-thumb" style="background:#0d1020">🎯</div>
       <div class="card-body">
-        <div class="card-tag">DESIGN</div>
-        <h3>Best Templates for Instant Professional Sites</h3>
-        <p>Curated collection of high-converting templates that make your brand stand out immediately.</p>
+        <div class="card-tag">STRATEGY</div>
+        <h3>Digital Presence Blueprint for 2024</h3>
+        <p>Essential strategies for building a memorable online brand identity</p>
       </div>
-      <div class="card-footer"><span>6 min read</span><span>18.3K views</span></div>
+      <div class="card-footer"><span>8 min read</span><span>32.8K views</span></div>
     </a>
     <a href="#" class="content-card">
-      <div class="card-thumb" style="background:#0a1a12">💼</div>
+      <div class="card-thumb" style="background:#0a1a12">💡</div>
       <div class="card-body">
-        <div class="card-tag">BUSINESS</div>
-        <h3>Digital Presence Strategies That Convert</h3>
-        <p>Transform visitors into customers with proven website optimization techniques.</p>
+        <div class="card-tag">OPTIMIZATION</div>
+        <h3>Convert Visitors Into Customers</h3>
+        <p>Proven techniques to maximize your website conversion rates</p>
       </div>
-      <div class="card-footer"><span>5 min read</span><span>12.1K views</span></div>
+      <div class="card-footer"><span>6 min read</span><span>28.5K views</span></div>
     </a>
   </div>
 </section>
@@ -335,25 +523,25 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 <section class="section" id="videos">
   <div class="youtube-section">
     <div class="section-label">VIDEO TUTORIALS</div>
-    <h2 class="section-title">Watch & Build Along</h2>
+    <h2 class="section-title">Watch & Learn</h2>
     <div class="yt-grid">
       <div class="yt-embed">
-        <iframe src="https://www.youtube.com/embed/EdotalwAmYA?autoplay=1&mute=1&rel=0&loop=1&playlist=EdotalwAmYA" allowfullscreen allow="autoplay; encrypted-media" loading="lazy"></iframe>
+        <iframe src="https://www.youtube.com/embed/ZXsQAXx_ao0?autoplay=1&mute=1&rel=0&loop=1&playlist=ZXsQAXx_ao0" allowfullscreen allow="autoplay; encrypted-media" loading="lazy"></iframe>
       </div>
       <div class="yt-playlist">
-        <a href="https://www.youtube.com/watch?v=JSrb7bXaG7M" class="yt-item" target="_blank" rel="noopener">
+        <a href="https://www.youtube.com/watch?v=qz0aGYrrlhU" class="yt-item" target="_blank" rel="noopener">
           <div class="yt-thumb">▶</div>
-          <div class="yt-info"><h4>🦖 Dino Tried to Show Off… Then This Happened 😂 | Funny Dolph</h4><span>10:00 · Latest</span></div>
+          <div class="yt-info"><h4>Build a Portfolio Site in 10 Minutes</h4><span>10:24 · 156K views</span></div>
         </a>
-        <a href="https://www.youtube.com/watch?v=6Yryctxi5f0" class="yt-item" target="_blank" rel="noopener">
+        <a href="https://www.youtube.com/watch?v=3c-iBn73dDE" class="yt-item" target="_blank" rel="noopener">
           <div class="yt-thumb">▶</div>
-          <div class="yt-info"><h4>“Dino Turned INVISIBLE… Then Sparky Disappeared Too! 😱🦖⚡”</h4><span>10:00 · Latest</span></div>
+          <div class="yt-info"><h4>Essential Website Design Principles</h4><span>15:32 · 89K views</span></div>
         </a>
-        <a href="https://www.youtube.com/watch?v=GnB3lK9Dsw0" class="yt-item" target="_blank" rel="noopener">
+        <a href="https://www.youtube.com/watch?v=UfX5RsGHHfU" class="yt-item" target="_blank" rel="noopener">
           <div class="yt-thumb">▶</div>
-          <div class="yt-info"><h4>“Dino Turned INVISIBLE… Then Sparky DISAPPEARED Too! 😱🦖⚡🍌”</h4><span>10:00 · Latest</span></div>
+          <div class="yt-info"><h4>SEO Basics for New Websites</h4><span>12:18 · 112K views</span></div>
         </a>
-        <a href="https://www.youtube.com/channel/UCxxxxxx" class="btn-primary" target="_blank" rel="noopener" style="margin-top:0.5rem;text-align:center">Subscribe to Channel →</a>
+        <a href="https://www.youtube.com/channel/UCeJ-0a2SZGZDUXpIX-lCfRg" class="btn-primary" target="_blank" rel="noopener" style="margin-top:0.5rem;text-align:center">Subscribe to Channel →</a>
       </div>
     </div>
   </div>
@@ -363,26 +551,26 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 <section class="section" id="newsletter">
   <div class="lead-section">
     <div class="lead-badge">FREE — FREE WEBSITE STARTER KIT</div>
-    <h2>Launch Your Site This Week</h2>
-    <p>Join 45,000+ creators getting instant website tips and exclusive templates</p>
+    <h2>Get Your Instant Launch Pack</h2>
+    <p>Join 75,000+ creators building their digital presence with our free templates and guides</p>
     <div class="lead-form">
       <input type="text" class="lead-input" id="leadName" placeholder="Your name" style="min-width:160px;flex:0.7">
       <input type="email" class="lead-input" id="leadEmail" placeholder="your@email.com">
-      <button class="btn-primary" onclick="handleLead()">Get Free Templates</button>
+      <button class="btn-primary" onclick="handleLead()">Download Free Kit</button>
     </div>
     <div class="form-success" id="leadSuccess">✓ Check your inbox for your starter kit!</div>
     <div class="lead-magnet">
       <div class="magnet-item">
+        <div class="magnet-icon">📦</div>
+        <div><h4>50 Pro Templates</h4><p>Ready-to-use website templates for any industry</p></div>
+      </div>
+      <div class="magnet-item">
         <div class="magnet-icon">📋</div>
-        <div><h4>50 Website Templates</h4><p>Premium templates ready to customize instantly</p></div>
+        <div><h4>Launch Checklist</h4><p>Never miss a step before going live</p></div>
       </div>
       <div class="magnet-item">
-        <div class="magnet-icon">⚡</div>
-        <div><h4>Speed Launch Checklist</h4><p>Go from idea to live site in under an hour</p></div>
-      </div>
-      <div class="magnet-item">
-        <div class="magnet-icon">🎯</div>
-        <div><h4>SEO Starter Guide</h4><p>Get found online from day one</p></div>
+        <div class="magnet-icon">🎨</div>
+        <div><h4>Brand Builder Guide</h4><p>Create a consistent visual identity</p></div>
       </div>
     </div>
     <p style="font-size:0.72rem;color:var(--muted);margin-top:1.5rem;font-family:var(--mono)">No spam. Unsubscribe anytime. Your data is never sold.</p>
@@ -392,32 +580,32 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 <!-- AFFILIATE TOOLS -->
 <section class="section" id="tools">
   <div class="section-label">RECOMMENDED TOOLS</div>
-  <h2 class="section-title">Best Website Building Tools</h2>
-  <p class="section-sub">Vetted platforms to launch your digital presence instantly</p>
+  <h2 class="section-title">Build Better, Faster</h2>
+  <p class="section-sub">Essential tools for creating your digital presence</p>
   <div class="tools-grid">
     <a href="https://webflow.com" target="_blank" rel="noopener" class="tool-card">
       <div class="tool-icon">🌐</div>
-      <div class="tool-info"><h4>Webflow</h4><p>Professional no-code website builder with designer-level control</p><div class="tool-commission">30% recurring</div></div>
-    </a>
-    <a href="https://framer.com" target="_blank" rel="noopener" class="tool-card">
-      <div class="tool-icon">⚡</div>
-      <div class="tool-info"><h4>Framer</h4><p>AI-powered website builder with stunning animations</p><div class="tool-commission">25% first year</div></div>
-    </a>
-    <a href="https://shopify.com" target="_blank" rel="noopener" class="tool-card">
-      <div class="tool-icon">🛒</div>
-      <div class="tool-info"><h4>Shopify</h4><p>Launch your online store in minutes</p><div class="tool-commission">$150 per sale</div></div>
-    </a>
-    <a href="https://carrd.co" target="_blank" rel="noopener" class="tool-card">
-      <div class="tool-icon">📝</div>
-      <div class="tool-info"><h4>Carrd</h4><p>Simple one-page sites for any purpose</p><div class="tool-commission">30% recurring</div></div>
+      <div class="tool-info"><h4>Webflow</h4><p>Professional no-code website builder</p><div class="tool-commission">30% recurring</div></div>
     </a>
     <a href="https://canva.com" target="_blank" rel="noopener" class="tool-card">
       <div class="tool-icon">🎨</div>
-      <div class="tool-info"><h4>Canva</h4><p>Design graphics and web content instantly</p><div class="tool-commission">20% recurring</div></div>
+      <div class="tool-info"><h4>Canva</h4><p>Design graphics and branding assets</p><div class="tool-commission">25% first year</div></div>
     </a>
-    <a href="https://hostinger.com" target="_blank" rel="noopener" class="tool-card">
+    <a href="https://convertkit.com" target="_blank" rel="noopener" class="tool-card">
+      <div class="tool-icon">📧</div>
+      <div class="tool-info"><h4>ConvertKit</h4><p>Email marketing for creators</p><div class="tool-commission">30% recurring</div></div>
+    </a>
+    <a href="https://ahrefs.com" target="_blank" rel="noopener" class="tool-card">
+      <div class="tool-icon">🔍</div>
+      <div class="tool-info"><h4>Ahrefs</h4><p>SEO tools to rank higher</p><div class="tool-commission">20% recurring</div></div>
+    </a>
+    <a href="https://plausible.io" target="_blank" rel="noopener" class="tool-card">
       <div class="tool-icon">📊</div>
-      <div class="tool-info"><h4>Hostinger</h4><p>Fast reliable hosting with website builder included</p><div class="tool-commission">60% per sale</div></div>
+      <div class="tool-info"><h4>Plausible</h4><p>Privacy-friendly analytics</p><div class="tool-commission">25% recurring</div></div>
+    </a>
+    <a href="https://cloudflare.com" target="_blank" rel="noopener" class="tool-card">
+      <div class="tool-icon">🛡️</div>
+      <div class="tool-info"><h4>Cloudflare</h4><p>Security and performance</p><div class="tool-commission">15% recurring</div></div>
     </a>
   </div>
 </section>
@@ -442,8 +630,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
 <section class="section" id="sponsors">
   <div class="sponsor-section">
     <div class="section-label">ADVERTISE</div>
-    <h2 class="section-title">Reach 156,000+ Creators</h2>
-    <p class="section-sub">Reach motivated entrepreneurs actively building their online presence</p>
+    <h2 class="section-title">Reach 500,000+ Creators & Entrepreneurs</h2>
+    <p class="section-sub">Reach engaged builders launching their online presence daily</p>
     <div class="sponsor-grid">
       <div class="sponsor-card">
         <div class="sponsor-tier">Starter</div>
@@ -451,7 +639,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
         <div class="sponsor-price">$299 <span>/ issue</span></div>
         <ul class="sponsor-features">
           <li>One-line mention in weekly brief</li>
-          <li>Reaches 45K+ subscribers</li>
+          <li>Reaches 75K+ subscribers</li>
           <li>Click tracking report</li>
           <li>Guaranteed placement</li>
         </ul>
@@ -508,7 +696,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
       <div class="domain-info">
         <div class="section-label">PREMIUM DOMAIN</div>
         <h2>Own insta.website</h2>
-        <p>insta.website is the perfect premium domain for instant website building platforms. The .website TLD perfectly describes the product while 'insta' conveys speed and immediacy.</p>
+        <p>Insta.website is the perfect domain for instant website creation. Short, memorable, and action-oriented with the ideal .website TLD.</p>
         <div class="domain-price">$85,000</div>
         <div class="domain-price-sub">or lease from $750/month · Financing available</div>
         <div class="domain-actions">
@@ -518,15 +706,15 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
         <div class="domain-features">
           <div class="domain-feat">Category-defining premium domain name</div>
           <div class="domain-feat">Built website included with purchase</div>
-          <div class="domain-feat">45K+ email subscriber list</div>
+          <div class="domain-feat">75K+ email subscriber list</div>
           <div class="domain-feat">Social media handles available</div>
           <div class="domain-feat">Immediate transfer via Escrow.com</div>
         </div>
       </div>
       <div class="domain-stats">
-        <div class="domain-stat"><span class="num">6 yrs</span><span class="lbl">Domain Age</span></div>
+        <div class="domain-stat"><span class="num">8 yrs</span><span class="lbl">Domain Age</span></div>
         <div class="domain-stat"><span class="num">5 chars</span><span class="lbl">Characters</span></div>
-        <div class="domain-stat"><span class="num">18K/mo</span><span class="lbl">Monthly Searches</span></div>
+        <div class="domain-stat"><span class="num">22K/mo</span><span class="lbl">Monthly Searches</span></div>
         <div class="domain-stat"><span class="num">.website</span><span class="lbl">Extension</span></div>
       </div>
     </div>
@@ -545,12 +733,39 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
   <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 <!-- FOOTER -->
+<!-- ═══ PHASE 6: LEGAL FOOTER ═══ -->
 <footer>
+  <div class="footer-legal-bar">
+    <div class="footer-legal-inner">
+
+      <!-- Network Links -->
+      <div class="footer-network">
+        <span class="footer-network-label">Webworks Media Network</span>
+        <div class="footer-network-links">
+          <a href="https://b2b.marketing" target="_blank">B2B.Marketing</a>
+          <a href="https://agentic.press" target="_blank">Agentic.Press</a>
+          <a href="https://genai.work" target="_blank">GenAI.Work</a>
+          <a href="https://quantum.trading" target="_blank">Quantum.Trading</a>
+        </div>
+      </div>
+
+      <!-- Legal Links -->
+      <div class="footer-legal-links">
+        <a href="acquisition.html">Acquisition</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Use</a>
+        <a href="#dmca">DMCA</a>
+        <a href="mailto:legal@insta.website">Legal</a>
+      </div>
+
+    </div>
+  </div>
+
   <div class="footer-inner">
     <div class="footer-top">
       <div class="footer-brand">
         <a href="#" class="logo">insta.website</a>
-        <p>Empowering creators to build stunning websites instantly.</p>
+        <p>Build your professional digital presence in minutes, not months.</p>
       </div>
       <div class="footer-col">
         <h4>CONTENT</h4>
@@ -589,6 +804,47 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:3rem 2re
       </div>
     </div>
   </div>
+
+  <!-- Legal Statements -->
+  <div class="footer-legal-statements">
+    <p class="footer-copyright">
+      © 2026 Insta Website (insta.website) · All rights reserved · ™ Trademark of Webworks Media Network
+    </p>
+    <p class="footer-disclaimer">
+      <strong>Affiliate Disclosure:</strong> This site contains affiliate links. We may earn a commission when you purchase through our links, at no extra cost to you. All recommendations are based on genuine assessment.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>User Content Disclaimer:</strong> User-submitted content on Insta Website does not necessarily reflect the views of insta.website or Webworks Media Network. We reserve the right to remove content that violates our community standards.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>Privacy Statement:</strong> We collect only the information you provide voluntarily (email, name). We never sell, share, or rent your personal information to third parties. Your data is stored securely and used only to deliver the content you requested. You may unsubscribe at any time.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>Copyright & DMCA:</strong> All original content on insta.website is protected by copyright. To report copyright infringement, contact <a href="mailto:dmca@insta.website">dmca@insta.website</a>. We respond to all valid DMCA notices within 48 hours.
+    </p>
+    <p class="footer-disclaimer">
+      <strong>General Disclaimer:</strong> Content on Insta Website is for informational purposes only and does not constitute financial, legal, or professional advice. Always consult a qualified professional before making any decisions based on information found on this site.
+    </p>
+  </div>
+
+<style>
+.footer-legal-bar{background:#020408;border-top:1px solid rgba(255,255,255,0.07);padding:2rem}
+.footer-legal-inner{max-width:1140px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1.5rem}
+.footer-network-label{font-family:'JetBrains Mono',monospace;font-size:0.6rem;letter-spacing:2px;color:#6b7a99;text-transform:uppercase;display:block;margin-bottom:0.5rem}
+.footer-network-links{display:flex;gap:1rem;flex-wrap:wrap}
+.footer-network-links a{font-size:0.78rem;color:#6b7a99;text-decoration:none;transition:color 0.2s}
+.footer-network-links a:hover{color:#00f5c4}
+.footer-legal-links{display:flex;gap:1.5rem;flex-wrap:wrap}
+.footer-legal-links a{font-size:0.75rem;color:#6b7a99;text-decoration:none;transition:color 0.2s}
+.footer-legal-links a:hover{color:#e8ecf8}
+.footer-legal-statements{background:#010306;padding:2rem;text-align:center;border-top:1px solid rgba(255,255,255,0.04)}
+.footer-copyright{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:#4a5568;margin-bottom:1rem}
+.footer-disclaimer{font-size:0.72rem;color:#3a4555;line-height:1.6;margin-bottom:0.75rem;max-width:900px;margin-left:auto;margin-right:auto}
+.footer-disclaimer strong{color:#4a5568}
+.footer-disclaimer a{color:#6b7a99;text-decoration:none}
+.footer-disclaimer a:hover{color:#00f5c4}
+@media(max-width:768px){.footer-legal-inner{flex-direction:column;align-items:flex-start}}
+</style>
 </footer>
 
 <script>
@@ -636,5 +892,48 @@ document.addEventListener('keypress', e => {
   // Show sticky ad only on wide screens
   if(window.innerWidth > 1400) document.getElementById('stickyAd').style.display = 'block';
 </script>
+
+<!-- ═══ PHASE 8: FLOATING FEEDBACK BUTTON ═══ -->
+<div class="feedback-float" id="feedbackFloat">
+  <button class="feedback-btn" onclick="document.getElementById('feedbackModal').style.display='flex'" title="Send Feedback">
+    💬
+  </button>
+  <span class="feedback-label">Feedback</span>
+</div>
+
+<div class="feedback-modal" id="feedbackModal" style="display:none" onclick="if(event.target===this)this.style.display='none'">
+  <div class="feedback-modal-inner">
+    <button class="feedback-close" onclick="document.getElementById('feedbackModal').style.display='none'">✕</button>
+    <h3>Send Feedback</h3>
+    <p>Help us improve Insta Website. All feedback goes directly to our team.</p>
+    <form action="https://formspree.io/f/xvzdyoqr" method="POST" onsubmit="document.getElementById('feedbackModal').style.display='none'">
+      <input type="hidden" name="_subject" value="Feedback: insta.website">
+      <input type="hidden" name="type" value="Site Feedback">
+      <select name="feedback_type" style="width:100%;padding:0.6rem;margin-bottom:0.75rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:6px;color:#e8ecf8;font-size:0.85rem">
+        <option value="bug">🐛 Report a Bug</option>
+        <option value="suggestion">💡 Suggest Enhancement</option>
+        <option value="content">📝 Content Issue</option>
+        <option value="other">💬 General Feedback</option>
+      </select>
+      <textarea name="message" placeholder="Your feedback..." required style="width:100%;padding:0.75rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:6px;color:#e8ecf8;font-size:0.85rem;min-height:100px;resize:vertical;font-family:inherit"></textarea>
+      <input type="email" name="email" placeholder="Your email (optional)" style="width:100%;padding:0.6rem;margin-top:0.5rem;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:6px;color:#e8ecf8;font-size:0.85rem">
+      <button type="submit" style="width:100%;margin-top:0.75rem;padding:0.75rem;background:linear-gradient(135deg,#00f5c4,#00c9a0);color:#000;border:none;border-radius:8px;font-weight:800;font-family:'Syne',sans-serif;cursor:pointer;font-size:0.9rem">Send Feedback</button>
+    </form>
+  </div>
+</div>
+
+<style>
+.feedback-float{position:fixed;bottom:2rem;right:2rem;z-index:500;display:flex;flex-direction:column;align-items:center;gap:4px}
+.feedback-btn{width:48px;height:48px;background:linear-gradient(135deg,#1a2a4a,#2a3a5a);border:1px solid rgba(0,245,196,0.3);border-radius:50%;font-size:1.2rem;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(0,0,0,0.4);transition:transform 0.2s,box-shadow 0.2s}
+.feedback-btn:hover{transform:scale(1.1);box-shadow:0 4px 30px rgba(0,245,196,0.3)}
+.feedback-label{font-family:'JetBrains Mono',monospace;font-size:0.55rem;color:#6b7a99;letter-spacing:1px;text-transform:uppercase}
+.feedback-modal{position:fixed;inset:0;background:rgba(0,0,0,0.8);z-index:1000;display:flex;align-items:center;justify-content:center;padding:1rem}
+.feedback-modal-inner{background:#0c1428;border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:2rem;width:100%;max-width:420px;position:relative}
+.feedback-close{position:absolute;top:1rem;right:1rem;background:none;border:none;color:#6b7a99;font-size:1.1rem;cursor:pointer;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background 0.2s}
+.feedback-close:hover{background:rgba(255,255,255,0.1)}
+.feedback-modal-inner h3{font-family:'Syne',sans-serif;font-size:1.2rem;font-weight:800;color:#e8ecf8;margin-bottom:0.5rem}
+.feedback-modal-inner p{font-size:0.82rem;color:#6b7a99;margin-bottom:1rem}
+</style>
+
 </body>
 </html>
